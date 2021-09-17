@@ -25,15 +25,18 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
-
+<!-- .map returns a new array with only the specifics we as for (returns only the state and city name). .reduce returns a single value after simplifying an array (returns the population of all cities added together). .filter iterates over an array and only returns what we want (returning only the cities with population over a certain amount). -->
 2. Explain the difference between a callback and a higher order function.
-
+<!-- A callback is the function that is passed into a higher order function. -->
 3. Explain what a closure is.
-
+<!-- If a variable isn't defined inside of a function's scope, it will look outside the scope chain to search for the referenced variable in the outer scope. -->
 4. Describe the four principles of the 'this' keyword.
-
+<!-- Window/Global Binding - value of this is the window/console Object
+     Implicit Binding - When a preceding dot calls a function, this refers to the object before the dot
+     New Binding - When using a constructor to make a new object, this refers to the specific isntance of the object being created by the constructor
+     Explicit Binding - this is explicitly defined when using apply() or call() -->
 5. Why do we need super() in an extended class?
-
+<!-- Tells the parent constructor to be concerned with the child's attributes and simplifies Object.create(this,Class). -->
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
